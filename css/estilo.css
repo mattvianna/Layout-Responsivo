@@ -1,0 +1,249 @@
+@font-face{
+  font-family: 'Manifesto';
+  src: url("../font/MANIFESTO.ttf");
+}
+@font-face{
+  font-family: 'WorkSans';
+  src: url("../font/WorkSans-Regular.ttf");
+}
+
+header{
+  background-color: rgba(250, 177, 160, 1);
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 75px;
+}
+header .container{
+  height: 100px;
+  position: relative;
+}
+nav{
+  position: absolute;
+  right: 0;
+}
+footer{
+  background-color: #fab1a0
+}
+
+#img{
+  height: 550px;
+}
+/*
+#logo{
+  padding-left: 30px;
+  position: absolute;
+  top: 22px;
+}
+*/
+#titulo{
+  font-family: "Manifesto";
+  font-size: 55px;
+  color: #FFF;
+  margin: 0;
+  position: relative;
+  right: 100px;
+}
+#menu ul{
+  position: relative;
+  top: 50px;
+  margin: 0;
+}
+#menu li{
+  display: inline-block;
+  font-family: "Manifesto";
+  position: relative;
+}
+#menu li a{
+  color: #FFF;
+  font-size: 20px;
+  padding: 15px;
+  position: relative;
+  bottom: 10px;
+}
+#menu li a.home{
+  margin: 0;
+}
+#menu li.pesquisa input{
+  border: none;
+  background: #FFF;
+}
+#menu li.pesquisa button{
+  position: absolute;
+  background: none;
+  border: none;
+  bottom: -2px;
+  color: #FFF;
+}
+#menu li.pesquisa button.btn{
+  font-size: 16px;
+}
+#menu li.pesquisa button.btn{
+  font-size: 16px;
+}
+#slider{
+  position: relative;
+  left: 14px;
+  top: 75px;
+  margin-bottom: 50px;
+}
+
+#slider div.owl-stage{
+  cursor: -webkit-grab;
+}
+#slider div.owl-stage:active{
+    cursor: -webkit-grabbing;
+}
+#id01{
+  padding-top: 0;
+}
+#id01 header.w3-container, div.w3-container{
+  padding: 0;
+}
+#id01 div.w3-modal-content{
+  height: 100%;
+  width: 100%;
+}
+#esc{
+  z-index: 3;
+  font-size: 25px;
+  position: absolute;
+  padding: 25px;
+  top: 0;
+  right: 125px;
+  cursor: pointer;
+}
+#barra_pesquisa input.form-control{
+  margin-top: 320px;
+  font-family: 'WorkSans';
+  font-size: 18px;
+  padding: 7px 16px;
+  position: absolute;
+  width: 20%;
+  left: 455px;
+  border-radius: 0;
+  border: 1px;
+  background-color: #dfe6e9;
+}
+#barra_pesquisa input::-webkit-input-placeholder {
+  color: #636e72;
+}
+#barra_pesquisa button{
+  z-index: 3;
+  margin-top: 320px;
+  position: relative;
+  left: 675px;
+  height: 41px;
+  border-radius: 0;
+  border-color: #fab1a0;
+  background-color: #fab1a0;
+}
+#produtos div.text-center{
+  position: relative;
+  top: 50px;
+  margin: 45px;
+}
+#produtos h2{
+  margin: 45px auto;
+  font-family: 'WorkSans'
+}
+#produtos h3{
+  font-family: 'WorkSans';
+  text-align: center;
+  margin: 5px auto;
+  position: relative;
+  right: 25px;
+}
+#produtos hr{
+  border: 2px solid #fab1a0;
+  position: relative;
+  bottom: 35px;
+  width: 100px;
+  margin: 0 auto;
+}
+#produtos img#img4{
+  width: 300px;
+}
+#produtos img#img5{
+  width: 300px;
+}
+#produtos img#img6{
+  width: 300px;
+}
+#sobre div.row.ela{
+  border: 2px solid #fcd7cf;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 75px;
+  right: 15px;
+}
+#sobre img{
+  width: 340px;
+  height: 360px;
+  position: relative;
+  right: 15px;
+}
+#sobre h2{
+  font-family: 'WorkSans';
+  text-align: center;
+  margin: 85px auto;
+  position: relative;
+  right: 3px;
+}
+#sobre p{
+  top: 100px;
+  font-family: 'WorkSans';
+  text-align: center;
+  margin: 5px auto;
+  position: relative;
+  right: 50px;
+}
+#sobre hr{
+  border: 2px solid #fab1a0;
+  position: relative;
+  bottom: 75px;
+  width: 100px;
+  margin: 40px auto;
+}
+#sobre hr.easteregg{
+  border: 2px solid #fab1a0;
+  position: relative;
+  bottom: 40px;
+  width: 100px;
+  margin: 10px auto;
+}
+#rodape{
+  position: relative;
+  height: 200px;
+}
+#rodape hr{
+  border: 1px solid #FFF;
+  position: relative;
+  width: 200px;
+  bottom: 10px;
+  right: 74px;
+  margin: 0 auto;
+}
+#rodape h4{
+  font-family: 'Manifesto';
+  color: #FFF;
+}
+#rodape li{
+  font-family: 'WorkSans';
+  color: #FFF;
+}
+#rodape a{
+  font-family: 'WorkSans';
+  color: #FFF;
+}
+#rodape i{
+  margin-right: 15px;
+}
+#rodape ul.pagamento li{
+  display: inline-block;
+  font-size: 35px;
+  margin-top: 5px;
+}
+#rodape div.col-md-4{
+  margin-top: 25px;
+}
