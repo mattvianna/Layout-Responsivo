@@ -12,6 +12,7 @@ $(document).ready(function(){
       },
       480:{
         items: 1
+
       },
       768:{
         items: 1

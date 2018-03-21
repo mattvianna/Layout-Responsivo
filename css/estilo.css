@@ -26,6 +26,9 @@ footer{
   background-color: #fab1a0
 }
 
+#hot-dog{
+  display: none;
+}
 #img{
   height: 550px;
 }
@@ -153,23 +156,20 @@ footer{
   margin: 5px auto;
   position: relative;
   right: 25px;
+  line-height: 1.4;
 }
 #produtos hr{
   border: 2px solid #fab1a0;
   position: relative;
   bottom: 35px;
   width: 100px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
-#produtos img#img4{
+#img-thumb{
   width: 300px;
+  height: 400px;
 }
-#produtos img#img5{
-  width: 300px;
-}
-#produtos img#img6{
-  width: 300px;
-}
+
 #sobre div.row.ela{
   border: 2px solid #fcd7cf;
   margin-bottom: 10px;
@@ -183,6 +183,20 @@ footer{
   position: relative;
   right: 15px;
 }
+#sobre-ela{
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+#sobre-ela hr{
+  border: 2px solid #fab1a0;
+  width: 100px;
+  margin: auto;
+}
+#sobre-ela h2{
+  font-family: 'WorkSans';
+  text-align: center;
+}
+/*
 #sobre h2{
   font-family: 'WorkSans';
   text-align: center;
@@ -190,6 +204,7 @@ footer{
   position: relative;
   right: 3px;
 }
+*/
 #sobre p{
   top: 100px;
   font-family: 'WorkSans';
@@ -198,6 +213,7 @@ footer{
   position: relative;
   right: 50px;
 }
+/*
 #sobre hr{
   border: 2px solid #fab1a0;
   position: relative;
@@ -205,6 +221,7 @@ footer{
   width: 100px;
   margin: 40px auto;
 }
+*/
 #sobre hr.easteregg{
   border: 2px solid #fab1a0;
   position: relative;

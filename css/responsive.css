@@ -3,7 +3,66 @@
 }
 
 @media only screen and (max-width: 480px) {
+  header{
+    position: absolute;
+
+  }
+
   #menu {
     display: none;
+  }
+  #titulo{
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    padding-left: 50px;
+    line-height: 1.0;
+  }
+  #hot-dog{
+    display: block;
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: none;
+    border: none;
+  }
+  #img{
+    height: 400px;
+  }
+  #produtos h3{
+    font-family: 'WorkSans';
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    right: 0;
+  }
+  #img-ela{
+    display: none;
+  }
+  #sobre-ela{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  #sobre div.row.ela{
+    border: 2px solid #fcd7cf;
+    position: relative;
+    bottom: 75px;
+    position: relative;
+    right: 0;
+  }
+  #sobre p{
+    font-family: 'WorkSans';
+    text-align: center;
+    margin: 5px auto;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  #rodape{
+    position: relative;
+    height: 445px;
   }
 }
