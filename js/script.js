@@ -3,7 +3,7 @@ $(document).ready(function(){
     loop:true,
     autoplay:true,
     center:true,
-    margin:75,
+    margin:110,
     //autoWidth:true,
     responsiveClass:true,
     responsive:{
@@ -15,12 +15,17 @@ $(document).ready(function(){
 
       },
       768:{
-        items: 2
+        items: 2,
+        margin: 360
       },
       1024:{
         items: 2
       },
       1440:{
+        items: 2,
+        stagePadding:210
+      },
+      1600:{
         items: 3
       }
     }

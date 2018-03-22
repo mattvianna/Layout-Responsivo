@@ -1,11 +1,36 @@
+@media only screen and (max-width: 1024px){
+  #titulo{
+    font-size: 50px;
+    right: 0;
+    top: 5px;
+  }
+  #menu ul{
+    right: 25px;
+  }
+  #menu li a{
+    padding: 10px;
+  }
+  #sobre p{
+    right: 0;
+  }
+  #barra_pesquisa input.form-control{
+    left: 350px;
+  }
+  #barra_pesquisa button{
+    left: 543px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  header{
+    position: fixed;
+  }
 
   #menu {
     display: none;
   }
   #titulo{
     font-size: 45px;
-    padding-left: 65px;
     line-height: 1.0;
     top: 10px;
   }
@@ -22,6 +47,12 @@
   #img{
     height: 400px;
   }
+  #img-thumb{
+    max-width: 200px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+  }
   #centralizar_thumbs{
     position: relative;
     text-align: center;
@@ -34,12 +65,20 @@
     right: 0;
   }
   #img-ela{
-    display: none;
+    max-width: 200px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
   }
   #sobre-ela{
     margin-top: 50px;
     margin-bottom: 100px;
   }
+  /*
+  #sobre div.nulo{
+    position: absolute;
+  }
+  */
   #sobre div.row.ela{
     border: 2px solid #fcd7cf;
     position: relative;
@@ -50,14 +89,13 @@
   #sobre p{
     font-family: 'WorkSans';
     text-align: center;
-    margin: 5px auto;
+    margin: 35px auto;
     position: relative;
     top: 0;
     right: 0;
   }
-  #rodape{
-    position: relative;
-    height: 445px;
+  #rodape hr{
+    right: 5px;
   }
 }
 
@@ -92,6 +130,12 @@
   #img{
     height: 400px;
   }
+  #img-thumb{
+    max-width: 300px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+  }
   #centralizar_thumbs{
     position: relative;
     text-align: center;
@@ -128,6 +172,12 @@
   #rodape{
     position: relative;
     height: 445px;
+  }
+  #rodape h4{
+    text-align: center;
+  }
+  #rodape ul{
+    text-align: center;
   }
 }
 
