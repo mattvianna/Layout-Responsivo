@@ -1,11 +1,140 @@
 @media only screen and (max-width: 768px) {
 
+  #menu {
+    display: none;
+  }
+  #titulo{
+    font-size: 45px;
+    padding-left: 65px;
+    line-height: 1.0;
+    top: 10px;
+  }
+  #hot-dog{
+    display: block;
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: none;
+    border: none;
+  }
+  #img{
+    height: 400px;
+  }
+  #centralizar_thumbs{
+    position: relative;
+    text-align: center;
+  }
+  #produtos h3{
+    font-family: 'WorkSans';
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    right: 0;
+  }
+  #img-ela{
+    display: none;
+  }
+  #sobre-ela{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  #sobre div.row.ela{
+    border: 2px solid #fcd7cf;
+    position: relative;
+    bottom: 75px;
+    position: relative;
+    right: 0;
+  }
+  #sobre p{
+    font-family: 'WorkSans';
+    text-align: center;
+    margin: 5px auto;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  #rodape{
+    position: relative;
+    height: 445px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   header{
     position: absolute;
+    height: 90px;
+  }
 
+  #menu {
+    display: none;
+  }
+  #titulo{
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    top: 4px;
+    padding-left: 65px;
+    line-height: 1.0;
+  }
+  #hot-dog{
+    display: block;
+    font-size: 30px;
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: none;
+    border: none;
+  }
+  #img{
+    height: 400px;
+  }
+  #centralizar_thumbs{
+    position: relative;
+    text-align: center;
+  }
+  #produtos h3{
+    font-family: 'WorkSans';
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    right: 0;
+  }
+  #img-ela{
+    display: none;
+  }
+  #sobre-ela{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  #sobre div.row.ela{
+    border: 2px solid #fcd7cf;
+    position: relative;
+    bottom: 75px;
+    position: relative;
+    right: 0;
+  }
+  #sobre p{
+    font-family: 'WorkSans';
+    text-align: center;
+    margin: 5px auto;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  #rodape{
+    position: relative;
+    height: 445px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  header{
+    position: absolute;
+    height: 80px;
   }
 
   #menu {
@@ -16,6 +145,7 @@
     position: absolute;
     text-align: center;
     right: 0;
+    top: 5px;
     padding-left: 50px;
     line-height: 1.0;
   }
@@ -31,6 +161,10 @@
   }
   #img{
     height: 400px;
+  }
+  #centralizar_thumbs{
+    position: relative;
+    right: 20px;
   }
   #produtos h3{
     font-family: 'WorkSans';
