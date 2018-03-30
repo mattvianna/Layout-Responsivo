@@ -18,8 +18,16 @@ $(document).ready(function(){
         items: 2,
         margin: 360
       },
+      992:{
+        items:2,
+        stagePadding:1
+      },
       1024:{
         items: 2
+      },
+      1324:{
+        items: 2,
+        stagePadding:165
       },
       1440:{
         items: 2,
@@ -36,4 +44,13 @@ $(document).ready(function(){
   }).on("mouseup", function(){
     $(this).removeClass(".owl-stage");
   });
+
+  $("#hot-dog").on("click", function(){
+    $("header").toggleClass("open-menu");
+  });
+
+  $("#mask").on("click", function(){
+    $("header").removeClass("open-menu");
+  });
+
 });
