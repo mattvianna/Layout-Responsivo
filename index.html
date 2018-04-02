@@ -25,11 +25,12 @@
           <li><a class="home" href="#">Cadastro</a></li>
           <li><a href="#">Contato</a></li>
           <li>
-            <input id="pesquisa-mobile" type="search" name="menu-busca" placeholder="Pesquise aqui...">
+            <input id="pesquisa-mobile" type="search" class="d-md-block d-lg-none" placeholder="Pesquise aqui...">
             <button id="botao-pesquisa-mobile" type="button" class="btn"><i class="fa fa-search"></i></button>
           </li>
         </ul>
       </div>
+      <!--Fim menu mobile-->
 
       <!--Topo do site conjunto a nav-->
       <div class="container">
@@ -43,13 +44,9 @@
               <li><a class="home" href="#">Cadastro</a></li>
               <li><a href="#">Contato</a></li>
               <li class="pesquisa">
-                <div class="input-group">
-                  <span class="input-group-btn">
-                    <button onclick="document.getElementById('id01').style.display='block'" class="btn btn-info">
-                      <i class="fa fa-search"></i>
-                    </button>
-                  </span>
-                </div>
+                <button onclick="document.getElementById('id01').style.display='block'" class="btn">
+                  <i class="fa fa-search"></i>
+                </button>
               </li>
             </ul>
           </nav>
@@ -70,14 +67,12 @@
           <!--modal body-->
           <div class="w3-container">
             <div id="barra_pesquisa" class="container">
-              <div class="row">
-                <div class="input-group">
-                  <input type="search" class="form-control" placeholder="Digite sua busca">
-                  <span class="input-group-btn">
-                    <button type="button" class="btn btn-info">
-                      <i class="fa fa-search"></i>
-                    </button>
-                  </span>
+              <div class="container">
+                <div class="row">
+                  <input type="search" placeholder="Digite sua busca">
+                  <button type="button" class="btn">
+                    <i class="fa fa-search"></i>
+                  </button>
                 </div>
               </div>
             </div>

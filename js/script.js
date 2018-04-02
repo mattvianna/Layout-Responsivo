@@ -39,11 +39,13 @@ $(document).ready(function(){
     }
   });
 
+
   $(".owl-stage").on("mousedown", function(){
     $(this).addClass(".owl-stage");
   }).on("mouseup", function(){
     $(this).removeClass(".owl-stage");
   });
+
 
   $("#hot-dog").on("click", function(){
     $("header").toggleClass("open-menu");
@@ -53,4 +55,10 @@ $(document).ready(function(){
     $("header").removeClass("open-menu");
   });
 
+
+  $("#thumb-1").on("mouseover", function(){
+    $("#img-thumb").addClass("hover");
+  }).on("mouseout", function(){
+    $("#img-thumb").removeClass("hover");
+  });
 });

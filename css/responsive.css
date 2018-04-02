@@ -56,7 +56,7 @@
     color: #FFF;
   }
   header li:last-child{
-    position: absolute;
+    position: relative;
   }
   header #menu-mobile li a{
     font-family: 'WorkSans';
@@ -69,7 +69,6 @@
     color: #ff7675;
   }
   header.open-menu #hot-dog{
-    clear: both;
     display: block;
     position: fixed;
     left: 83%;
@@ -83,24 +82,21 @@
     font-size: 1rem;
     border: none;
     border-radius: .25rem;
-    padding: 0.430rem 3.65rem;
     color: #000;
     outline-color: #636e72;
-    text-align: center;
+    width: 100%;
+    height: 34px;
   }
   header #botao-pesquisa-mobile{
     color: #ff7675;
     background-color: #000;
-    position: relative;
-    right: 50px;
-    left: auto;
     border-radius: .25rem;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    top: 25px;
-    height: 35px;
     position: absolute;
-    left: 96%;
+    right: 0;
+    top: 0;
+    height: 34px;
   }
 
   #menu {
@@ -215,7 +211,7 @@
     color: #FFF;
   }
   header li:last-child{
-    position: absolute;
+    position: relative;
   }
   header #menu-mobile li a{
     font-family: 'WorkSans';
@@ -228,7 +224,6 @@
     color: #ff7675;
   }
   header.open-menu #hot-dog{
-    clear: both;
     display: block;
     position: fixed;
     left: 83%;
@@ -242,23 +237,26 @@
     font-size: 1rem;
     border: none;
     border-radius: .25rem;
-    padding: 0.430rem 3.65rem;
     color: #000;
     outline-color: #636e72;
+    position: relative;
+    width: 100%;
+    height: 34px;
   }
   header #botao-pesquisa-mobile{
     color: #ff7675;
     background-color: #000;
-    position: relative;
-    right: 50px;
-    left: auto;
     border-radius: .25rem;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    top: 25px;
-    height: 35px;
+    height: 34px;
     position: absolute;
-    left: 96%;
+    right: 0;
+    top: 25px;
+  }
+  header #botao-pesquisa-mobile i{
+    position: relative;
+    bottom: 2px;
   }
 
   #menu {
@@ -289,7 +287,7 @@
     height: 400px;
   }
   #img-thumb{
-    max-width: 300px;
+    max-width: 265px;
     max-height: 400px;
     width: auto;
     height: auto;
@@ -336,180 +334,5 @@
   }
   #rodape ul{
     text-align: center;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  header #pesquisa-mobile{
-    font-family: 'WorkSans';
-    margin-top: 25px;
-    margin-bottom: 6px;
-    font-size: 1rem;
-    border: none;
-    border-radius: .25rem;
-    padding: 0.430rem 2.35rem;
-    color: #000;
-    outline-color: #636e72;
-  }
-  header #botao-pesquisa-mobile{
-    color: #ff7675;
-    background-color: #000;
-    position: relative;
-    right: 50px;
-    left: auto;
-    border-radius: .25rem;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    top: 25px;
-    height: 35px;
-    position: absolute;
-    left: 96%;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  header{
-    position: absolute;
-    height: 80px;
-  }
-  header.open-menu #menu-mobile{
-    left: 0;
-  }
-  header #menu-mobile{
-    position: fixed;
-    left: -80%;
-    transition: 1s;
-    background-color: #fab1a0;
-    width: 80%;
-    height: 100%;
-    z-index: 3;
-  }
-  header.open-menu #mask{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  header #menu-mobile li:first-child{
-    font-family: 'Manifesto';
-    font-size: 30px;
-    color: #FFF;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #FFF;
-  }
-  header #menu-mobile li{
-    text-align: center;
-    margin: 15px;
-    color: #FFF;
-  }
-  header li:last-child{
-    position: absolute;
-  }
-  header #menu-mobile li a{
-    font-family: 'WorkSans';
-    font-size: 18px;
-    border-bottom: 1px solid #fff;
-    text-decoration: none;
-    color: inherit;
-  }
-  header #menu-mobile li a:active{
-    color: #ff7675;
-  }
-  header.open-menu #hot-dog{
-    clear: both;
-    display: block;
-    position: fixed;
-    left: 83%;
-    transition: 1s;
-    transform: rotate(360deg);
-  }
-  header #pesquisa-mobile{
-    font-family: 'WorkSans';
-    margin-top: 25px;
-    margin-bottom: 6px;
-    font-size: 1rem;
-    border: none;
-    border-radius: .25rem;
-    padding: 0.430rem .75rem;
-    color: #000;
-    outline-color: #636e72;
-  }
-  header #botao-pesquisa-mobile{
-    color: #ff7675;
-    background-color: #000;
-    position: relative;
-    right: 50px;
-    left: auto;
-    border-radius: .25rem;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    top: 25px;
-    height: 35px;
-    position: absolute;
-    left: 96%;
-  }
-
-  #menu {
-    display: none;
-  }
-  #titulo{
-    font-size: 40px;
-    position: absolute;
-    text-align: center;
-    left: 0;
-    top: 5px;
-    padding-left: 50px;
-    line-height: 1.0;
-  }
-  #hot-dog{
-    font-size: 30px;
-    color: #FFF;
-    position: absolute;
-    top: 10px;
-    left: 5px;
-    background: none;
-    border: none;
-    transition: 1s;
-    outline: 0;
-  }
-  #img{
-    height: 400px;
-  }
-  #centralizar_thumbs{
-    position: relative;
-    right: 20px;
-  }
-  #produtos h3{
-    font-family: 'WorkSans';
-    text-align: center;
-    margin-bottom: 20px;
-    position: relative;
-    left: 18px;
-  }
-  #img-ela{
-    display: none;
-  }
-  #sobre-ela{
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-  #sobre div.row.ela{
-    border: 2px solid #fcd7cf;
-    position: relative;
-    bottom: 75px;
-    position: relative;
-    right: 0;
-  }
-  #sobre p{
-    font-family: 'WorkSans';
-    text-align: center;
-    margin: 5px auto;
-    position: relative;
-    top: 0;
-    right: 0;
-  }
-  #rodape{
-    position: relative;
-    height: 445px;
   }
 }
