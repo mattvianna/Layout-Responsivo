@@ -56,9 +56,9 @@ $(document).ready(function(){
   });
 
 
-  $("#thumb-1").on("mouseover", function(){
-    $("#img-thumb").addClass("hover");
-  }).on("mouseout", function(){
-    $("#img-thumb").removeClass("hover");
+  $("img#img-thumb").hover(function(){
+    $(this).addClass("hover");
+  },function(){
+    $(this).removeClass("hover");
   });
 });
