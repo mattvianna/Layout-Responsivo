@@ -3,7 +3,7 @@ $(document).ready(function(){
     loop:true,
     autoplay:true,
     center:true,
-    margin:110,
+    margin:7,
     //autoWidth:true,
     responsiveClass:true,
     responsive:{
@@ -15,8 +15,7 @@ $(document).ready(function(){
 
       },
       768:{
-        items: 2,
-        margin: 360
+        items: 2
       },
       992:{
         items:2,
@@ -56,9 +55,9 @@ $(document).ready(function(){
   });
 
 
-  $("img#img-thumb").hover(function(){
+  $(".background-efeito").on("mouseenter", function(){
     $(this).addClass("hover");
-  },function(){
+  }).on("mouseleave", function(){
     $(this).removeClass("hover");
   });
 });

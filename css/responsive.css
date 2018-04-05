@@ -89,7 +89,7 @@
   }
   header #botao-pesquisa-mobile{
     color: #ff7675;
-    background-color: #000;
+    background-color: #FFF;
     border-radius: .25rem;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -139,6 +139,15 @@
     margin-bottom: 20px;
     position: relative;
     right: 0;
+  }
+  .background-efeito{
+    width: auto;
+  }
+  .background-efeito.hover{
+    background-color: #FFF;
+  }
+  .background-efeito.hover h3{
+    color: #000;
   }
   #img-ela{
     max-width: 200px;
@@ -245,7 +254,7 @@
   }
   header #botao-pesquisa-mobile{
     color: #ff7675;
-    background-color: #000;
+    background-color: #FFF;
     border-radius: .25rem;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -302,6 +311,15 @@
     margin-bottom: 20px;
     position: relative;
     right: 0;
+  }
+  .background-efeito{
+    width: auto;
+  }
+  .background-efeito.hover{
+    background-color: #FFF;
+  }
+  .background-efeito.hover h3{
+    color: #000;
   }
   #img-ela{
     display: none;
