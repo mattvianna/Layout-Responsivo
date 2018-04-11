@@ -6,4 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Config' => $baseDir . '/model/config.class.php',
+    'Rotas' => $baseDir . '/model/rotas.class.php',
+    'Template' => $baseDir . '/model/template.class.php',
 );
