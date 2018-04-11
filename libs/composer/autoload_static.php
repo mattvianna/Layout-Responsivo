@@ -7,18 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInita7964865be64897ca9d2062d316fc334
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'f084d01b0a599f67676cffef638aa95b' => __DIR__ . '/..' . '/smarty/smarty/libs/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'T' => 
-        array (
-            'Twig\\' => 5,
-        ),
-        'S' => 
-        array (
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-        ),
         'P' => 
         array (
             'PHPMailer\\PHPMailer\\' => 20,
@@ -26,27 +18,9 @@ class ComposerStaticInita7964865be64897ca9d2062d316fc334
     );
 
     public static $prefixDirsPsr4 = array (
-        'Twig\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/twig/twig/src',
-        ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
-        ),
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
-        ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'T' => 
-        array (
-            'Twig_' => 
-            array (
-                0 => __DIR__ . '/..' . '/twig/twig/lib',
-            ),
         ),
     );
 
@@ -61,7 +35,6 @@ class ComposerStaticInita7964865be64897ca9d2062d316fc334
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInita7964865be64897ca9d2062d316fc334::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInita7964865be64897ca9d2062d316fc334::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInita7964865be64897ca9d2062d316fc334::$prefixesPsr0;
             $loader->classMap = ComposerStaticInita7964865be64897ca9d2062d316fc334::$classMap;
 
         }, null, ClassLoader::class);

@@ -1,6 +1,6 @@
 {
   "require":{
-    "twig/twig":"^2.0",
+    "smarty/smarty":"~3.1",
     "phpmailer/phpmailer":"~6.0"
   },
 

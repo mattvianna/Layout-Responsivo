@@ -6,7 +6,7 @@ Class Rotas{
   private static $pasta_controller = 'controller';
   private static $pasta_view = 'view';
 
-  static function Home(){
+  static function Init(){
     return Config::SITE_URL.'/'.Config::SITE_PASTA;
   }
 
@@ -14,16 +14,20 @@ Class Rotas{
     return $_SERVER['DOCUMENT_ROOT'].'/'.Config::SITE_PASTA;
   }
 
+  static function Home(){
+    return self::Init().'/home';
+  }
+
   static function Template(){
-    return self::Home().'/'.self::$pasta_view;
+    return self::Init().'/'.self::$pasta_view;
   }
 
   static function Carrinho(){
-    return self::Home().'/carrinho';
+    return self::Init().'/carrinho';
   }
 
   static function Shop(){
-    return self::Home().'/shop';
+    return self::Init().'/shop';
   }
 
   static function Pagina(){
