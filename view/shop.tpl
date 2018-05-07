@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="view/css/shop.css">
+  <link rel="stylesheet" href="view/tema/css/shop.css">
 </head>
 
 <div id="centralizar_thumbs" class="container">

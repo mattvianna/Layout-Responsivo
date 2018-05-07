@@ -4,7 +4,7 @@
 
     //Info básicas do site
     const SITE_URL = "http://localhost";
-    const SITE_PASTA = "Projeto1-v3";
+    const SITE_PASTA = "Projeto1";
     const SITE_NOME = "Gaveta Online";
     const SITE_EMAIL_ADM = "";
 

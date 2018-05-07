@@ -1,0 +1,14 @@
+#ignorando compile
+view/compile/
+#ignorando algumas pastas em libs
+libs/composer/
+libs/phpmailer/
+libs/smarty/
+libs/autoload.php
+#outros arquivos
+.htaccess
+composer.lock
+composer.phar
+composer-setup.php
+#arquivos bd
+model/config.class.php

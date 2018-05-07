@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.carousel.css">
     <link rel="stylesheet" href="libs/OwlCarousel2/dist/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="{$TEMA}/css/estilo.css">
-    <link rel="stylesheet" href="{$TEMA}/css/responsive.css">
+    <link rel="stylesheet" href="{$TEMA}/tema/css/estilo.css">
+    <link rel="stylesheet" href="{$TEMA}/tema/css/responsive.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
@@ -42,9 +42,9 @@
           <nav id="menu" class="pull-right">
             <ul>
               <li><a class="home" href="{$HOME}">Home</a></li>
-              <li><a class="home" href="#">Cadastro</a></li>
+              <li><a class="home" href="{$LOGIN}">Login</a></li>
+              <li><a href="#">Minha Conta</a></li>
               <li><a class="home" href="{$SHOP}">Shop</a></li>
-              <li><a href="#">Contato</a></li>
               <li class="pesquisa">
                 <button onclick="document.getElementById('id01').style.display='block'" class="btn">
                   <i class="fa fa-search"></i>
@@ -144,6 +144,6 @@
     <script src="libs/jquery/jquery.min.js"></script>
     <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="libs/OwlCarousel2/dist/owl.carousel.min.js"></script>
-    <script src="{$TEMA}/js/script.js"></script>
+    <script src="{$TEMA}/tema/js/script.js"></script>
   </body>
 </html>

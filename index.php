@@ -10,6 +10,7 @@
   $smarty->assign('HOME', Rotas::Home());
   $smarty->assign('CARRINHO', Rotas::Carrinho());
   $smarty->assign('SHOP', Rotas::Shop());
+  $smarty->assign('LOGIN', Rotas::Login());
 
   $smarty->display('index.tpl');
  ?>

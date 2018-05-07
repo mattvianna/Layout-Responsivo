@@ -1,0 +1,17 @@
+form{
+  font-family: "WorkSans";
+  border-radius: 10px;
+  width: 75%;
+}
+
+#formcont{
+  padding-top: 100px;
+}
+
+.button-submit{
+  padding-bottom: 100px;
+}
+.btn-default{
+  background-color: #fab1a0;
+  color:#fff;
+}

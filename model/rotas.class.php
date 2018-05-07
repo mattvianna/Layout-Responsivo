@@ -30,6 +30,10 @@ Class Rotas{
     return self::Init().'/shop';
   }
 
+  static function Login(){
+    return self::Init().'/login';
+  }
+
   static function Pagina(){
 
     if(isset($_GET['pag'])){
